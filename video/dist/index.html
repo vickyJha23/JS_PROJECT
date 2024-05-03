@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js" defer></script>
+</head>
+<body>
+     <div class="preloader fixed w-[100%] h-[100%] grid place-items-center bg-white z-[1]">
+         <img src="https://github.com/john-smilga/javascript-basic-projects/blob/master/09-video/final/preloader.gif?raw=true" alt="">
+     </div>
+      <div class="hero min-h-[100vh] overflow-hidden relative grid place-items-center">
+           <video controls muted autoplay loop class="video_container absolute z-[-2] w-[100%] h-[100%] object-cover">
+                 <source src="../public/video/video.mp4" type="video/mp4">
+           </video>
+           <div class="banner absolute top-0 left-0 w-[100%] h-[100%] bg-light-black grid place-items-center">
+               <h1 class="text-white text-[2.5rem] tracking-[3px]">Video Project</h1>
+               <button class="absolute bottom-[7%] left-[2%] bg-slate-300 py-[0.25rem] px-[0.5rem] rounded w-[7rem] h-[2rem] flex items-center justify-around overflow-hidden">
+                       <span class="inline-block text-[0.875rem] capitalize cursor-pointer">Play</span>
+                       <span class="inline-block text-[0.875rem] capitalize cursor-pointer">Pause</span>
+                       <span class="slider bg-green-400 w-[50%] h-[100%] absolute top-0 left-0 rounded block transition-all duration-300"></span>
+               </button>
+           </div>
+       </div>s
+</body>
+</html>

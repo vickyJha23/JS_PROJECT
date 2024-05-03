@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+      .success{
+          background-color: rgb(201, 242, 155);
+          padding: 0.25rem 0;
+          text-align: center;
+          margin: 0.5rem 0;
+          letter-spacing: 2px;
+          text-transform: capitalize;
+      }
+      .danger{
+          background-color: rgb(210, 43, 43);
+          padding: 0.25rem 0;  
+          text-align: center;
+          margin: 0.5rem 0;
+          letter-spacing: 2px;   
+          text-transform: capitalize;
+      }
+}
+
+@layer base {
+    h1{
+         @apply text-2xl font-bold;
+    }
+}

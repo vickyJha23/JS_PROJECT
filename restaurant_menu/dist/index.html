@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-white dark:bg-slate-800">
+    <section class="menu text-white">
+      <div class="menu-title mt-[10vh] mb-[2rem] text-center">
+        <h2
+          class="capitalize text-[2.5rem] font-semibold tracking-[3px] mb-[0.5rem]"
+        >
+          Our Menu
+        </h2>
+        <div class="w-[7rem] h-[0.25rem] bg-yellow-600 m-auto"></div>
+      </div>
+      <div class="btn-container text-center mb-[4rem]">
+        <!-- <button
+          class="filter border-2 border-yellow-600 mx-[0.5rem] capitalize tracking-[3px] rounded px-[0.5rem] py-[0.2rem] text-yellow-600 transition-all duration-300 hover:bg-yellow-600 hover:text-white"
+          data-id="all"
+        >
+          all
+        </button>
+        <button
+          class="filter border-2 border-yellow-600 mx-[0.5rem] capitalize tracking-[3px] rounded px-[0.5rem] py-[0.2rem] text-yellow-600 transition-all duration-300 hover:bg-yellow-600 hover:text-white"
+          data-id="breakfast"
+        >
+          breakfast
+        </button>
+        <button
+          class="filter border-2 border-yellow-600 mx-[0.5rem] capitalize tracking-[3px] rounded px-[0.5rem] py-[0.2rem] text-yellow-600 transition-all duration-300 hover:bg-yellow-600 hover:text-white"
+          data-id="lunch"
+        >
+          Lunch
+        </button>
+        <button
+          class="filter border-2 border-yellow-600 mx-[0.5rem] capitalize tracking-[3px] rounded px-[0.5rem] py-[0.2rem] text-yellow-600 transition-all duration-300 hover:bg-yellow-600 hover:text-white"
+          data-id="shakes"
+        >
+          Shakes
+        </button> -->
+      </div>
+      <!-- button container closes here -->
+      <div
+        class="menu-center w-[90vw] max-w-[1170px] m-auto grid gap-x-[2rem] gap-y-[3rem] justify-items-center lg:grid-cols-[1fr,1fr] lg:w-[95vw]"
+      >
+        <div
+          class="menu-item grid gap-x-[1rem] gap-y-[2rem] max-w-[25rem] md:grid-cols-[225px,1fr] md:gap-y-[0] md:gap-x-[1.25rem] md:max-w-[40rem]"
+        >
+          <div class="item_img">
+            <img
+              src="../public/images/item-1.jpeg"
+              alt="()"
+              class="photo w-[100%] h-[200px] border-[0.25rem] border-yellow-600 rounded object-cover md:h-[175px]"
+            />
+          </div>
+          <div class="item_description">
+            <header
+              class="flex justify-between items-center border-dotted border-b-[0.05rem] border-blue-400 mb-[0.8rem] pb-[0.5rem]"
+            >
+              <h4
+                class="text-blue-950 font-semibold capitalize tracking-[3px] dark:text-white text-[1.2rem]"
+              >
+                Buttermilk pancakes
+              </h4>
+              <h4 class="price text-yellow-600 font-semibold tracking-[3px]">
+                $15
+              </h4>
+            </header>
+            <p class="desc text-blue-400">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Molestiae, quia.
+            </p>
+          </div>
+        </div>
+        <!-- item-1 ends here -->
+        <div class="menu-item grid gap-x-[1rem] gap-y-[2rem] max-w-[25rem] md:max-w-[40rem] md:grid-cols-[225px,1fr] md:gap-x-[1.25rem] md:gap-y-[0]">
+             <div class="item_img">
+                 <img src="../public/images/item-1.jpeg" alt="" class="photo  w-[100%] border-[0.25rem] border-yellow-600 rounded-[5px] h-[200px] md:h-[175px] object-cover">
+             </div>
+             <div class="item_descriptiom">
+                 <header class="flex justify-between border-b-[0.05rem] border-dotted border-blue-400 mb-[0.8rem] pb-[0.5rem]">
+                      <h4 class="capitalize tracking-[3px] text-[1.2rem]">Buttermilk pancakes</h4>
+                      <h4 class="price tracking-[3px] text-yellow-600">$15</h4>
+                 </header>
+                 <p class="desc text-blue-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, veritatis.</p>
+             </div>
+        </div>
+        <!-- item-2 ends here -->
+        <div class="menu-item grid gap-y-[2rem] gap-x-[1rem] max-w-[25rem] md:max-w-[40rem] md:grid-cols-[225px,1fr] md:gap-x-[1.25rem] md:gap-y-[0]">
+            <div class="item_img">
+                 <img src="../public/images/item-1.jpeg" alt="()" class="photo w-[100%] object-cover h-[200px] md:h-[175px] border-[0.25rem] border-yellow-600 rounded-[5px]">
+            </div>
+            <div class="item_description">
+                 <header class="flex justify-between border-b-[0.05rem] border-dotted border-blue-400 mb-[0.8rem] pb-[0.5rem]">
+                      <h4 class="capitalize text-[1.2rem] tracking-[3px]">Buttermilk pancakes</h4>
+                      <h4 class="price tracking-[3px] text-yellow-600">$15</h4>
+                 </header>
+                 <p class="desc text-blue-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, ipsa!</p>
+            </div>
+        </div>
+        <!-- item-3 ends here -->
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>

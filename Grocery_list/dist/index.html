@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="dark:bg-slate-950">
+         <div id="Grocery_list" class="min-h-[100vh] grid place-items-center">
+                <div class="grocery_list_container w-[90vw] max-w-[670px] m-auto bg-white shadow-lg rounded p-[1rem]">
+                      <div class="title mb-[1rem]">
+                            <p id="alrt"></p>
+                            <h1 class="text-center capitalize tracking-[2px]">Grocery Bud</h1>
+                      </div>
+                       <form class="my-[1rem]">
+                             <div class="form-control flex justify-between">
+                                     <input type="text" id="grocery_input" class="w-[100%] border-[0.15rem] border-blue-900 rounded-tl-[0.25rem] rounded-bl-[0.25rem] bg-blue-200 px-[0.5rem] outline-none tracking-[2px]" placeholder="e.g.task">
+                                     <button id="submit_btn" class="bg-blue-400 px-[1rem] py-[0.25rem] rounded-tr-[0.25rem] rounded-br-[0.25rem] tracking-[2px] text-white">+Add</button>
+                             </div>
+                       </form>
+                     <div class="Grocery_items_container hidden">
+                          <div class="grocery_list"></div>
+                          <button id="clear_btn" class=" text-red-400 w-[100%] capitalize tracking-[2px] transition-all duration-300 hover:text-red-500">Clear Items</button>
+                     </div>                
+                </div>
+          </div>
+          <script src="app.js"></script>   
+</body>
+</html>

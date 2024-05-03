@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark:bg-slate-950 dark:text-white">
+       <div id="slider" class="min-h-[100vh] overflow-hidden">
+             <div class="slides">
+                  <div class="title mt-[15vh] mb-[4rem]">
+                       <h1 class="uppercase tracking-[2px] text-center mb-[0.5rem]">slides</h1>
+                       <div class="w-[5rem] h-[0.25rem] bg-yellow-500 m-auto"></div>
+                  </div>    
+                  <div class="w-[90vw] max-w-[768px] m-auto bg-white p-[1rem] rounded shadow-md relative h-[400px] overflow-hidden">
+                       <div class="slide my-element">
+                           <img src="../public/images/car1.avif" alt="()" class="square align-middle">
+                           <div class="center text-8xl text-white">1</div>
+                       </div>
+                       <div class="slide my-element">
+                           <img src="../public/images/car2.avif" alt="()" class="square align-middle">
+                           <div class="center text-8xl text-white">2</div>
+                       </div>
+                       <div class="slide my-element">
+                           <img src="../public/images/car3.avif" alt="()" class="square align-middle">
+                           <div class="center text-8xl text-white">3</div>
+                       </div>
+                       <div class="slide my-element">
+                           <img src="../public/images/car4.avif" alt="()" class="square align-middle">
+                           <div class="center text-8xl text-white">4</div>
+                       </div>
+                  </div>
+                  <div class="btn-container flex justify-center m-[1rem]">
+                        <button class="prev text-[1.5rem] mx-[0.5rem] tracking-[2px]">Prev</button>
+                        <button class="next text-[1.5rem] mx-[0.5rem] tracking-[2px]">Next</button>
+                  </div>
+             </div>
+       </div>
+       <script src="./app.js"></script>
+</body>
+</html>

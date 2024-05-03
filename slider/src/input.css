@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+     h1{
+        @apply text-4xl
+     }
+}
+@layer components{
+    .my-element{
+        @apply absolute top-0 left-0 w-[100%] z-[1];
+    }
+    .square{
+         @apply w-[100%] h-[400px] object-cover
+        }
+        .center{
+              @apply absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%];
+        }
+}

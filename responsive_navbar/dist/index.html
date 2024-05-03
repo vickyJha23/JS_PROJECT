@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive navigation bar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="bg-slate-950">
+      <!-- Responsive navigation bar start from here -->
+      <nav class="bg-white">
+           <div class="nav-center md:w-[95vw] md:max-w-[1440px] m-auto md:flex md:justify-between md:items-center px-[1.5rem]">
+                 <div class="nav-header flex justify-between items-center">
+                      <div class="logo  md:flex md:items-center">
+                           <h2 class="text-[1.5rem] tracking-[2px] py-[0.9rem]"><span class="text-black inline-block drop-shadow-[0 5px 5px rgb(0 0 0 / 0.5)]">Coding</span> <span class="text-blue-400">Addict</span></h2>
+                      </div>
+                      <div class="toggle-container md:hidden block">
+                           <button class="toggle_btn text-[1.5rem] text-blue-400"><i class="fa fa-bars"></i></button>
+                      </div>
+                 </div>
+                 <div class="md:max-h-auto bg-white hidden md:block link-container">
+                     <ul class="links md:flex md:items-center">
+                          <li class="py-[0.8rem] md:mx-2"><a href="#" class="md:py-[0.9rem] md:hover:px-0 md:hover:bg-transparent md:hover:text-black hover:bg-blue-500 hover:px-[1.2rem] hover:text-white hover:transition-all  hover:inline md:text-[1.2rem] md:tracking-[2px] tracking-[2px]  text-[1.2rem]">Home</a></li>   
+                          <li class="py-[0.8rem] md:mx-2"><a href="#" class="md:py-[0.9rem] md:hover:px-0 md:hover:bg-transparent md:hover:text-black hover:bg-blue-500 hover:px-[1.2rem] hover:text-white hover:transition-all  hover:inline md:text-[1.2rem] md:tracking-[2px] tracking-[2px]  text-[1.2rem]">About</a></li>   
+                          <li class="py-[0.8rem] md:mx-2"><a href="#" class="md:py-[0.9rem] md:hover:px-0 md:hover:bg-transparent md:hover:text-black hover:bg-blue-500 hover:px-[1.2rem] hover:text-white hover:transition-all  hover:inline md:text-[1.2rem] md:tracking-[2px] tracking-[2px]  text-[1.2rem]">Projects</a></li>   
+                          <li class="py-[0.8rem] md:mx-2"><a href="#" class="md:py-[0.9rem] md:hover:px-0 md:hover:bg-transparent md:hover:text-black hover:bg-blue-500 hover:px-[1.2rem] hover:text-white hover:transition-all  hover:inline md:text-[1.2rem] md:tracking-[2px] tracking-[2px]  text-[1.2rem]">Contact</a></li>   
+                     </ul>
+                 </div>
+                 <div class="socialsMediaContainer md:block hidden">
+                      <ul class="md:flex md:items-center">
+                          <li class="mx-2"><a href="#" class="py-[0.9rem] text-[1.2rem] tracking-[2px]"><i class="fa fa-facebook-official"></i></a></li>
+                          <li class="mx-2"><a href="#" class="py-[0.9rem] text-[1.2rem] tracking-[2px]"><i class="fa fa-whatsapp"></i></a></li>
+                          <li class="mx-2"><a href="#" class="py-[0.9rem] text-[1.2rem] tracking-[2px]"><i class="fa fa-instagram"></i></a></li>
+                          <li class="mx-2"><a href="#" class="py-[0.9rem] text-[1.2rem] tracking-[2px]"><i class="fa fa-snapchat"></i></a></li>
+                      </ul>             
+                 </div>
+           </div>
+      </nav>    
+      <script src="app.js"></script>
+
+</body>
+</html>

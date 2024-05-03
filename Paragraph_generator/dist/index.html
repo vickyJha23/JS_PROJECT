@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paragraph Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="dark:bg-slate-950 dark:text-white">
+    <div id="Paragraph_generator" class="min-h-[100vh] grid place-items-center">
+      <div
+        class="paragraph_generator_container w-[90vw] max-w-[670px] m-auto bg-slate-400 p-[1rem] rounded-[0.25rem]"
+      >
+        <div class="title m-[1rem]">
+          <h1
+            class="uppercase text-[2rem] text-center font-bold tracking-[2px] text-blue-950"
+          >
+            tired of boring lorem ipsum?
+          </h1>
+        </div>
+        <form class="flex justify-center gap-4 items-center">
+          <p class="capitalize tracking-[2px] text-[1.2rem]"><label for="Para">Paragraphs:</label></p>
+          <div class="form_control flex gap-2">
+            <input type ="text" id="Para"  class="w-[50px] rounded text-black p-[0.25rem]" maxlength="2">
+            <button class="bg-amber-400 px-[0.5rem] py-[0.25rem] uppercase rounded tracking-[2px]">Generate</button>
+          </div>
+        </form>
+        <div id="output_paragraph" class="m-[1rem]"></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
